@@ -1,3 +1,4 @@
+/*
 package ru.shavlov.crudapp.dao;
 
 
@@ -56,4 +57,4 @@ public class PersonDAO {
         Session session = sessionFactory.getCurrentSession();
         session.remove(session.find(Person.class, id));
     }
-}
+}*/

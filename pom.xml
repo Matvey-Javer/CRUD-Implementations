@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.example</groupId>
-    <artifactId>HibernateSpringProject</artifactId>
+    <artifactId>HIbernateSpringProject</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>HibernateSpringProject Maven Webapp</name>
@@ -91,6 +91,12 @@
             <groupId>org.jboss.logging</groupId>
             <artifactId>jboss-logging</artifactId>
             <version>3.6.1.Final</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-jpa</artifactId>
+            <version>3.5.0</version>
         </dependency>
     </dependencies>
     <build>
